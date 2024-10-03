@@ -1,0 +1,13 @@
+
+How does inheritance work in JavaScript?
+    In JavaScript, inheritance works primarily through prototypes. Each object in JavaScript has an internal link to another object, called its prototype. This prototype object can also have its own prototype, allowing objects to inherit properties and methods from other objects. This chain of objects is referred to as the prototype chain.
+
+    When you access a property or method on an object, JavaScript first looks at that object. If the property or method is not found, it then looks up the prototype chain until it either finds the property/method or reaches the end of the chain (null).
+
+
+Inheritance Summary
+    Prototype-based: Objects inherit from other objects through the prototype chain.
+    
+    Constructor functions: Objects created using constructors share methods via the constructor's prototype.
+    
+    Class-based inheritance (ES6): Provides a clearer syntax for defining inheritance but works under the hood using prototypes.

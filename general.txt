@@ -1,0 +1,30 @@
+querySelector vs querySelectorAll
+    // Select the first <div> element
+    let el = document.querySelector("div"); 
+
+    // Select all <div> elements
+    let els = document.querySelectorAll("div"); 
+
+document.querySelector('a').addEventListener('click', function(event) {
+    event.preventDefault();  // Prevents the link from following its href
+    console.log("Default action prevented");
+});
+
+
+
+preventDefault()
+    Prevents the default action associated with an event from happening.
+
+stopPropagation()
+    Purpose: Stops the event from bubbling up (or down, in the case of capturing) the DOM tree.
+
+Back-Forward Cache (BFCache) 
+    Browsers often cache pages to improve performance when navigating using the back and forward buttons. This Back-Forward Cache (BFCache) allows pages to be quickly restored without re-fetching or re-rendering them.
+
+Good vebsite to know about versioning
+    https://semver.org/
+
+
+Leetcode
+    
+

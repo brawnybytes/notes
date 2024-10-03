@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    cursor: grab;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+.photo-container .placeholder {
+    border: 2px dashed #aaa;
+    width: 100px;
+    height: 100px;
+}

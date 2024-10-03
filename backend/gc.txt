@@ -1,0 +1,22 @@
+
+
+GC roots -> mark the live objects
+
+    Mark
+    Sweep 
+    Compaction
+
+Young Generation 
+    Eden Space
+    S1
+    S2
+Old Generation
+Permanent Generation
+
+
+
+https://www.freecodecamp.org/news/garbage-collection-in-java-what-is-gc-and-how-it-works-in-the-jvm/
+
+Serial -> Parellel GC -> CMS (concurrent mark and sweep) -> GI GC
+
+

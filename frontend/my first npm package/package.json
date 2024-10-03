@@ -1,0 +1,11 @@
+{
+  "name": "hello-world-package-brawnybytes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "rohit",
+  "license": "ISC"
+}
