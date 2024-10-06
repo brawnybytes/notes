@@ -28,3 +28,82 @@ Good vebsite to know about versioning
 Leetcode
     
 
+
+Spring 
+Spring boot 
+Hibernate
+Core java
+Advanced java
+
+
+AsyncAppender 
+AsyncLogger
+Garbage Collection 
+
+
+logging
+multithreading
+exceptional handling
+microservices 
+
+
+Pessimistic locking 
+    2PL
+
+Optimistic locking
+    Timestamp ordeting protocol 
+
+
+
+Normalisation 
+    1NF - no multi value attributes are allowed
+    2NF - no partial dependency - some prime attributes determines non prime
+    3NF - no transitive dependency
+    BCNF - if x -> y then x should be a super key
+
+
+Distrinuted Concurrecy control
+    https://www.shiksha.com/online-courses/articles/concurrency-control-techniques-in-dbms/
+
+
+Micoservices Design Patterns
+    SAGA design pattern 
+    Aggregator
+    API gateway
+    Chain of responsibility 
+    Asynchronous messaging 
+    Database design pattern - database per service or shared database
+    Event sourcing - publish the event about the change
+    Branch - output can come from any srvice not necessarily following a sequence
+    CQRS -> command (create, delete, update) , query (read) responsibility pattern 
+    Circuit breaker design pattern 
+    Decomposition --> domains, business, strangler or vine pattern
+
+
+Multithreading
+    
+
+leetcode
+
+    total -> 150 questions
+
+    start time -> 12:50
+    end time -> 12:50
+
+    13 questions in one hour 
+    4 mins per quesion 
+
+    
+
+    9 questions 
+
+
+
+    linked list -- done 
+    then tree 
+    
+
+Database 
+    Normalisation
+    Transactions and Concurrecy Control 
+    Indexing 

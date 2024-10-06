@@ -1,7 +1,5 @@
 
-
 GC roots -> mark the live objects
-
     Mark
     Sweep 
     Compaction
@@ -13,10 +11,15 @@ Young Generation
 Old Generation
 Permanent Generation
 
-
-
 https://www.freecodecamp.org/news/garbage-collection-in-java-what-is-gc-and-how-it-works-in-the-jvm/
 
-Serial -> Parellel GC -> CMS (concurrent mark and sweep) -> GI GC
+Serial -> Parellel GC -> CMS (concurrent mark and sweep) -> GI GC -> Epsilon ->  Shenandoah -> ZGC
+
+SLF4J
+    Log4J
+    Logback
+    Java Util Logging 
+
+ Logback's AsyncAppender or Log4j2's AsyncLogger.
 
 
