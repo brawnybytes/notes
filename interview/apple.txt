@@ -1,4 +1,16 @@
 
 
+Project 
+Task
+    create 
+    update 
+    view
 
+bulk update 
+
+Database 
+    Project
+        id 
+        title 
+        description
 
